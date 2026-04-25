@@ -27,7 +27,7 @@ export function SearchBar({ onSearch }: SearchBarProps) {
                 <input
                     type="text"
                     className="search-input"
-                    placeholder="Describe the manufacturing defect (e.g., 'pipe has uneven thickness')"
+                    // placeholder="Describe the manufacturing defect (e.g., 'pipe has uneven thickness')"
                     value={query}
                     onChange={handleInputChange}
                     autoFocus
